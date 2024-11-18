@@ -79,3 +79,34 @@ body {
         transform: scale(1.1);
     }
 }
+
+
+#power-ups {
+    position: fixed;
+    top: 20%;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.power-up {
+    padding: 10px 20px;
+    background-color: #61dafb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.power-up:hover {
+    background-color: #21a1f1;
+}
+
+.power-up:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
