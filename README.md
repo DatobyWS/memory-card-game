@@ -18,41 +18,22 @@ This project is a browser-based card game where players can use various power-up
    ```bash
    git clone https://github.com/yourusername/card-game.git
 
-Copy
-
-Apply
-
 Navigate to the project directory:
 
-cd card-game
-
-Copy
-
-Execute
+cd memory-card-game
 
 Install dependencies:
 
 npm install
-
-Copy
-
-Execute
+npm install -g live-server
 
 Build the project: Compile the TypeScript files:
 
 npx tsc
 
-Copy
-
-Execute
-
 Run the project: Use live-server to start a local development server:
 
-live-server
-
-Copy
-
-Execute
+npx live-server
 
 This will open your default web browser to the project.
 
