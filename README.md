@@ -37,12 +37,6 @@ npx live-server
 
 This will open your default web browser to the project.
 
-## Technical Decisions
-
-- **TypeScript**: Chosen for its static typing and ability to catch errors at compile time, improving code quality and maintainability.
-- **Modular Design**: The codebase is organized into modules, such as `boardgame.ts` and `powerUpManager.ts`, to separate concerns and enhance readability.
-- **DOM Manipulation**: Direct DOM manipulation is used for rendering the game board and updating the UI, providing fine-grained control over the game interface.
-
 ## Assumptions and Trade-offs
 
 - **Single-Player Focus**: The game is designed for single-player use, prioritizing simplicity and ease of use over multiplayer capabilities.
