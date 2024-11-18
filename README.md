@@ -16,7 +16,7 @@ This project is a browser-based card game where players can use various power-up
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/card-game.git
+   git clone https://github.com/DatobyWS/memory-card-game
 
 Navigate to the project directory:
 
